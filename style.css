@@ -280,3 +280,8 @@ footer h4{
 #contact p{
   margin: 10px 0;
 }
+
+#last-links{
+  display: flex;
+  flex-direction: column;
+}

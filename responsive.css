@@ -1,0 +1,54 @@
+/* Media Queries (Making it responsive) */
+@media screen and (max-width: 450px) {
+  #nav-ul {
+    justify-content: space-between;
+  }
+
+  #main-div{
+    flex-direction: column-reverse;
+    margin-top: 150px;
+  }
+
+  #left-div,
+  #right-div {
+    width: 90%;
+  }
+
+  #left-div{
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#left-div h2{
+    padding: 0;
+}
+
+#input-search{
+    width: 80%;
+}
+
+#right-div {
+    margin: 0 auto;
+}
+
+section > h3{
+    text-align: center;
+}
+
+#last-part{
+    flex-direction: column;
+    gap: 30px;
+    padding: 2px 0;
+    align-items: start;
+    padding: 0 40px;
+}
+
+#footer-img{
+    margin: auto;
+}
+
+#last-links{
+    flex-direction: row;
+    gap: 30px;
+}
+}

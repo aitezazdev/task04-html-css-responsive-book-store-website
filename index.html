@@ -11,41 +11,44 @@
 />
   </head>
   <body>
-    <div id="top-div">
-      <img src="./Images/top-book.png" alt="" />
-      <h1>ZAZ</h1>
-      <p>Book Store</p>
-    </div>
+    <header id="top">
+      <div id="top-div">
+        <img src="./Images/top-book.png" alt="" />
+        <h1>ZAZ</h1>
+        <p>Book Store</p>
+      </div>
+  
+      <nav>
+        <ul id="nav-ul">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#best-sellers">Best Sellers</a></li>
+          <li><a href="#books">Books</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+      <div id="main-div">
+          <div id="left-div">
+              <h2>Find The Books You Are Looking For To Read</h2>
+              <div id="input-search">
+                  <input type="text" placeholder="Search Book">
+                  <i class="ri-search-line"></i>
+              </div>
+          </div>
+          <div id="right-div">
+              <img src="./Images/main-book-pic.jpg" alt="">
+          </div>
+      </div>
+  
+      <div id="text">
+        <h3>Zaz Book Store</h3>
+        <p>Where BOOKS and PEOPLE <span style="color: #ea5b14;">meet!</span></p>
+        <p>Bringing Books and Accessories to Your Doorstep.</p>
+        <p>Explore Our Online Store and Order your Favourite Novels, Souvenirs and much More.</p>
+      </div>
 
-    <nav>
-      <ul id="nav-ul">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Best Sellers</a></li>
-        <li><a href="#">Books</a></li>
-      </ul>
-    </nav>
-
-    <div id="main-div">
-        <div id="left-div">
-            <h2>Find The Books You Are Looking For To Read</h2>
-            <div id="input-search">
-                <input type="text" placeholder="Search Book">
-                <i class="ri-search-line"></i>
-            </div>
-        </div>
-        <div id="right-div">
-            <img src="./Images/main-book-pic.jpg" alt="">
-        </div>
-    </div>
-
-    <div id="text">
-      <h3>Zaz Book Store</h3>
-      <p>Where books and people meet!</p>
-      <p>Bringing Books and Accessories to Your Doorstep</p>
-      <p>Explore Our Online Store and Order your Favourite Novels, Souvenirs and much more</p>
-    </div>
-
-    <h3 style="font-size: 30px; margin: 15px 80px;">Best Sellers</h3>
+    <section id="best-sellers" style="margin: 50px 0;">
+      <h3>Best Sellers</h3>
     <div id="best-sellers">
       <div class="img-div">
         <img src="./Images/BestSellers/1984.png" alt="">
@@ -81,7 +84,7 @@
         <img src="./Images/BestSellers/mansearch.png" alt="">
         <div class="inner-div">
           <div>
-            <p>Man's Search for Meaning</p>
+            <p>Man's Search for Mean...</p>
             <p>Viktor E. Frankl</p>
           </div>
           <button>Buy Now</button>
@@ -108,18 +111,66 @@
         </div>
       </div>
     </div>
+    </section>
 
-    <h3 style="font-size: 30px; margin: 15px 80px;">Books</h3>
+    <section id="books" style="margin: 70px 0;">
+      <h3>Books</h3>
     <div id="books">
-      <div>
-        <div>
-          <img src="" alt="">
+      <div class="books-img">
+        <div class="books-upper">
+          <img src="./Images/Books/alchemist.jpg" alt="">
         </div>
-        <div>
-          <p></p>
+        <div class="books-lower">
+          <p>"The Alchemist" by Paulo Coelho</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="books-img">
+        <div class="books-upper">
+          <img src="./Images/Books/atomic_habits.jpeg" alt="">
+        </div>
+        <div class="books-lower">
+          <p>"Atomic Habits" by James Clear</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="books-img">
+        <div class="books-upper">
+          <img src="./Images/Books/bookThief.jpeg" alt="">
+        </div>
+        <div class="books-lower">
+          <p>"The Book Thief" by Markus Zusak</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="books-img">
+        <div class="books-upper">
+          <img src="./Images/Books/braveworld.jpeg" alt="">
+        </div>
+        <div class="books-lower">
+          <p>"Brave New World" by Aldous Huxley</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="books-img">
+        <div class="books-upper">
+          <img src="./Images/Books/handMaidsTale.jpg" alt="">
+        </div>
+        <div class="books-lower">
+          <p>"The Handmaid's Tale" by Margaret Atwood</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="books-img">
+        <div class="books-upper">
+          <img src="./Images/Books/power.png" alt="">
+        </div>
+        <div class="books-lower">
+          <p>"48 Laws of Power" by Robert Greene</p>
           <button>Buy Now</button>
         </div>
       </div>
     </div>
+    </section>
   </body>
 </html>

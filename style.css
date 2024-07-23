@@ -117,6 +117,8 @@ nav {
   width: 350px;
   height: 70vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 #best-sellers .img-div img {
@@ -141,12 +143,12 @@ nav {
 
 .inner-div div {
   padding: 15px;
-  background-color: #524f4f;
+  background-color: rgba(255, 255, 255, 0.3);
   line-height: 1.5;
-  opacity: 0.6;
   text-align: center;
   font-size: 22px;
-  color: #fff;
+  font-weight: 500;
+  color: #000;
 }
 
 .inner-div button,
@@ -155,16 +157,19 @@ nav {
   font-size: 15px;
   display: block;
   margin: 0 auto;
-  background-color: #8a8686;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.inner-div button:hover,
-.books-lower button:hover {
+.inner-div button:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.books-lower button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 #books {
@@ -180,6 +185,8 @@ nav {
   width: 350px;
   height: 70vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 .books-upper {
@@ -195,7 +202,7 @@ nav {
 
 .books-lower {
   height: 30%;
-  background-color: #4b4a58;
+  background-color: #2e2d2d;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -220,7 +227,7 @@ section > h3{
 
 #footer-1{
   width: 80%;
-  background: #bebebe;
+  background: #e7e3e3;
   margin: 20px auto;
   padding: 20px;
   text-align: center;
@@ -242,6 +249,18 @@ footer h4{
   margin: 10px;
 }
 
+.mail:hover{
+  color: #EA4335;
+}
+
+.insta:hover{
+  color: #833AB4;
+}
+
+.linkedin:hover{
+  color: #0A66C2;
+}
+
 #last-part{
   display: flex;
   justify-content: space-around;
@@ -251,5 +270,13 @@ footer h4{
 
 #last-part h5{
   font-size: 22px;
+  margin: 10px 0;
+}
+
+#menu a{
+  color: #000;
+}
+
+#contact p{
   margin: 10px 0;
 }

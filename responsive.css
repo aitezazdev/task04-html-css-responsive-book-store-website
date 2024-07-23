@@ -1,5 +1,5 @@
 /* Media Queries (Making it responsive) */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   #nav-ul {
     justify-content: space-between;
   }
@@ -21,10 +21,11 @@
 
 #left-div h2{
     padding: 0;
+    width: 100%;
 }
 
 #input-search{
-    width: 80%;
+    width: 90%;
 }
 
 #right-div {

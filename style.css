@@ -30,7 +30,7 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -214,6 +214,42 @@ section {
 
 section > h3{
     width: 100%;
-    font-size: 30px;
+    font-size: 35px;
     margin: 0 70px;
+}
+
+#footer-1{
+  width: 80%;
+  background: #bebebe;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer h4{
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+#icons a{
+  text-decoration: none;
+  color: black;
+}
+
+#icons i{
+  font-size: 30px;
+  margin: 10px;
+}
+
+#last-part{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#last-part h5{
+  font-size: 22px;
+  margin: 10px 0;
 }

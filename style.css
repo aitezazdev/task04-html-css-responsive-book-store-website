@@ -14,12 +14,15 @@
 }
 
 #top-div h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 nav {
   background: #e7e3e3;
   padding: 22px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 #nav-ul {
@@ -211,6 +214,6 @@ section {
 
 section > h3{
     width: 100%;
-    font-size: 25px;
-    margin: 0 100px;
+    font-size: 30px;
+    margin: 0 70px;
 }
